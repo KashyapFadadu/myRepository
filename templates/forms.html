@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/myApp/store" method="POST">
+      {% csrf_token %} Group_no : <input type="text" name="Prog_Group_no" />
+      <br /><br />
+      Roll_no : <input type="text" name="Prog_Roll_no" /> <br /><br />
+      Enroll_no : <input type="text" name="Prog_Enroll_no" /> <br /><br />
+      Name : <input type="text" name="Prog_Name" /> <br /><br />
+      Division : <input type="text" name="Prog_Div" /> <br /><br />
+      Details : <input type="text" name="Prog_Details" /> <br /><br />
+      <input type="submit" name="submit" />
+    </form>
+  </body>
+</html>
